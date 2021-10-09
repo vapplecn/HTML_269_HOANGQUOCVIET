@@ -1,0 +1,52 @@
+.logo {
+    position: absolute;
+    top: calc(50% - 19px);
+    margin: auto;
+}
+
+.sub-title {
+    font-style: italic;
+}
+
+img {
+    padding: 1rem;
+}
+img:hover {
+    transform: scale(1.01);
+ }
+
+ @media only screen and (max-width: 850px) {
+    .search, .m-hd {
+      display: none;
+    }
+    .m-fs {
+        font-size: 1.35rem !important;
+    }
+  }
+
+button i {
+    font-size: 12px;
+}
+
+h2 {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+td {
+    vertical-align: middle !important;
+}

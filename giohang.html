@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Cart</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font-Awesome v5.15.4 CSS link: https://fontawesome.com/v5.15/icons/  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Css private -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <div class="container-lg">
+        <!-- Header -->
+        <div class="row m-0" id="header">
+            <div class="col-3 col-xl-2">
+              <a href="index.html">
+                <img src="./images/PET.png" class="p-1 img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+              </a>
+            </div>
+          <div class="col-7 col-xl-8 text-center">
+            <h1 class="text-primary m-fs m-0">Cửa hàng Thu Trân</h1>
+            <p class="sub-title m-hd m-0">- Phục vụ quý khách 24/7 <br>
+            - <i class="fa fa-home m-hd" aria-hidden="true"></i>: 137E Nguyễn Chí Thanh P4 Quận 5 TP Hồ Chí Minh <br>
+            - <i class="fa fa-envelope m-hd" aria-hidden="true"></i>: admin@thutran.com - <i class="fas fa-phone"></i>: <a href="#">08 777 666</a></p>
+          </div>
+          <div class="col-2 col-xl-2 d-flex align-self-end p-0">
+            <div class="container-fluid p-0 d-flex justify-content-end">
+              <button type="button" name="" id="" class="btn btn-danger pr-2 pl-2 d-flex m-1" btn-lg btn-block">
+                <a href="giohang.html" class="text-white">
+                  <u>0</u> 
+                    <i class="fas fa-shopping-cart text-white"></i>
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+          <a class="navbar-brand active text-light" href="index.html">Home</a>
+          <button class="navbar-toggler text-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fas fa-list"></i> Discount Products
+                  
+                </a>
+                <div class="dropdown-menu text-light" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="mobiles.html"><i class="fab fa-apple"></i> Mobiles</a>
+                  <a class="dropdown-item" href="tivi.html"><i class="fas fa-tv"></i> TV</a>
+                  <a class="dropdown-item" href="#"><i class="fas fa-utensils"></i> Foods</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="mobiles.html"><i class="fab fa-apple"></i> Mobiles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="tivi.html"><i class="fas fa-tv"></i> TV <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="foods.html"><i class="fas fa-utensils"></i> Foods</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="contact.html"><i class="far fa-envelope"></i> Contact</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+        
+        <!-- Cart -->
+        <div class="row m-0 mt-2">
+            <div class="border w-100 text-center mb-1">
+              <h2 class="text-center p-2 text-primary m-0">LIÊN HỆ VỚI CHÚNG TÔI</h2>
+            </div>
+          </div>
+  
+          <div class="row m-0">
+              <!-- Table -->
+              <div class="col-xl-7 col pl-0">
+                  <div class="table-responsive-sm">
+                    <table class="table" border="1px">
+                        <thead>
+                            <tr class="bg-primary text-center text-white">
+                                <th>Hình</th>
+                                <th>Tên</th>
+                                <th>Số lượng</th>
+                                <th>Đơn giá</th>
+                                <th>Thành tiền</th>
+                                <th> </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="row">
+                                    <img src="./images/ANDROID_1.png" class="img-thumbnail w-50 ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+                                </td>
+                                <td>Freetel ICE 2 8GB</td>
+                                <td><input type="number" name="" id="" value="1" class="w-50"></td>
+                                <td>9.240.000 đ</td>
+                                <td>9.240.000 đ</td>
+                                <td><a href="#"><i class="fa fa-trash text-danger" aria-hidden="true"></i></a></td>
+                            </tr>
+                            <tr>
+                              <td scope="row">
+                                  <img src="./images/ANDROID_1.png" class="img-thumbnail w-50 ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+                              </td>
+                              <td>Freetel ICE 2 8GB</td>
+                              <td><input type="number" name="" id="" value="1" class="w-50"></td>
+                              <td>9.240.000 đ</td>
+                              <td>9.240.000 đ</td>
+                              <td><a href="#"><i class="fa fa-trash text-danger" aria-hidden="true"></i></a></td>
+                          </tr>
+                          <tr>
+                            <td scope="row" colspan="6" class="text-right text-danger">
+                                <b>Tổng thành tiền:</b> 17.160.000 đ
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                  </div>
+              </div>
+
+              <!-- Ship info -->
+              <div class="col-xl-5 col p-0">
+                <div class="container p-0">
+                    <h3 class="text-info">THÔNG TIN GIAO HÀNG</h3>
+                    <form class="shadow">
+                        <div class="form-group p-2">
+                            <label for="hoTen">Họ tên</label>
+                            <input type="text" class="form-control shadow" id="hoTen">
+                          </div>
+                        <div class="form-group p-2">
+                          <label for="email">Email</label>
+                          <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="form-group p-2">
+                            <label for="phone">Điện thoại</label>
+                            <input type="number" class="form-control" id="phone">
+                          </div>
+                        <div class="form-group p-2">
+                            <label for="andress">Địa chỉ giao hàng</label>
+                            <input type="text" class="form-control shadow" id="andress">
+                          </div>
+                        <div class="form-group p-2">
+                            <label for="date">Ngày giao hàng</label>
+                            <input type="date" class="form-control shadow" id="date">
+                          </div>
+
+                        <div class="form-group p-2">
+                          <input type="submit" class="btn btn-info" id="ok" value="Đồng ý">
+                          <input type="submit" class="btn btn-danger" id="cancel" value="Huỷ">
+                          <input type="submit" class="btn btn-warning" id="cancel" value="Mua tiếp">
+                        </div>
+    
+                      </form>
+                  </div>
+              </div>
+          </div>
+
+      <!-- Footer -->
+      <div class="row m-0 mt-2">
+        <footer class="bg-secondary w-100 text-center">
+          <p class="text-center p-2 text-light m-0">&copy; Designed by Hoang Viet - student of teacher Vatuan</p>
+        </footer>
+      </div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
